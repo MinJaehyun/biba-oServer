@@ -16,7 +16,7 @@ User.init(
   {
     email: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false, // 추가하거나 있을 때 allownull false 로 추가하기 ?
       unique: true,
     },
     password: {
